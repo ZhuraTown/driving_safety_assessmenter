@@ -22,12 +22,10 @@ class Level:
                 if col == "x":
                     Tile((x,y), [self.visible_sprites, self.obstacles_sprites])
                 if col == "p":
-                    Car((x,y), [self.visible_sprites])
-
-
+                    self.car = Car((x,y), [self.visible_sprites], self.obstacles_sprites)
 
 
     def run(self):
         self.visible_sprites.draw(self.display_surface)
         self.visible_sprites.update()
-        # debug(self.car.direction)
+        debug(self.car.direction)
