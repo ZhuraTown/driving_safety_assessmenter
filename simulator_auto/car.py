@@ -1,5 +1,6 @@
 import pygame
 
+
 class Car(pygame.sprite.Sprite):
 
     def __init__(self, pos, groups, obstacle_sprites):

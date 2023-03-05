@@ -1,6 +1,5 @@
 import sys, pygame
 from simulator_auto.settings import *
-from debug import debug
 
 from level import Level
 

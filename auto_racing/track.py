@@ -3,7 +3,6 @@ from settings import *
 from tile import Tile
 from car import Car
 
-from auto_racing.debug import debug
 
 class Level:
     def __init__(self):
